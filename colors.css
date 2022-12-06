@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+:root {
+    --primary-color: #e0a500;
+    --secondary-color: #732c00;
+    --terciary-color: #cfcfcf;
+    --font-family: 'Secular One', sans-serif; 
+    --font-secondary: 'Dancing Script', cursive;
+    --color-text-black: #000;
+    --color-text-white: #fff;
+}

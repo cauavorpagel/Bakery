@@ -1,0 +1,75 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: 10%;
+    justify-content: center;
+
+}
+
+.modalProducts {
+    display: flex;
+    flex-direction: wrap;
+    width: 100%;
+}
+
+.modalButton {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: unset;
+}
+
+.imgButton {
+    padding: 0;
+    margin: 10px;
+    max-width: 480px;
+}
+
+.modal-header, .modal-footer {
+    background-color: rgb(99, 26, 26);
+    border: 0;
+}
+
+h5, p {
+    color: white;
+}
+
+.modal-body {
+    background-color: rgb(73, 28, 28);
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menuItem button {
+    background-color: brown;
+    border: none;
+    border-radius: 100px;
+    height: 30px;
+}
+
+.modal-footer button {
+    background-color: brown;
+    border: none;
+}
+
+@media(max-width:1250px){
+
+    .menu {
+        margin-inline: 5%;
+    }
+    
+    .imgButton {
+        width: 400px;
+    }   
+}
+
+@media(max-width:432px) {
+
+    .imgButton {
+        width: 359px;
+    }
+}

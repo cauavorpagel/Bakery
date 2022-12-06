@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <header>
+      
+        <div id="principalNav">
+            
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><span><img class="icon__nav-logo" src="./img/nav/icon-bakery.png" alt=""></span><span>Padoca do Zézo</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#"><span><img class="icon__nav" src="./img/nav/icon-phone.png" alt=""></span><span>ligue para nós</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.google.com/maps/search/padaria/@-27.878988,-54.4824537,20.06z"><span><img class="icon__nav" src="./img/nav/icon_local.png" alt=""></span><span>venha até nós</span></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </nav>
+
+        </div>    
+
+        <div class="selectSection">
+            <ul>
+                <li href=".promoProducts">Produtos do dia</li>
+                <li>Menus</li>
+                <li>Sobre nós</li>
+            </ul>
+        </div>
+
+    </header>
+    
+    <main>
+
+        <section>
+
+            <div class="img__background">
+                <h1>conheça o top 1 das melhores padarias...</h1>
+            <div>
+
+        </section>
+
+        <section>
+
+            <div class="promoProducts">
+                
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                     
+                    </div>
+                </div>            
+            </div>
+
+        </section>
+
+        <div class="menu">
+                
+            <button class="modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                <img class="imgButton" src="./img/img-menu/bread.png" alt="">
+            </button>
+            
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Pães</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="menuItem"><p>Pão de centeio</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Marraqueta</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Hallula</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pão de aveia</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pão de linhaça</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pão de chia</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Brioche</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pão preto</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pão australiano</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Ciabatta</p><button>Comprar</button></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                <img class="imgButton" src="./img/img-menu/cake.png" alt="">
+            </button>
+            
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Bolos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="menuItem"><p>Bolo de Chocolate</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolo de Cenoura</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolo de Morango com chantilly</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Floresta Negra</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Prestígio</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Dois Amores</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolo de Nozes</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Abacaxi com Coco</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolo de Baunilha</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolo de Banana</p><button>Comprar</button></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                <img class="imgButton" src="./img/img-menu/salgados.png" alt="">
+            </button>
+            
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Salgados</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="menuItem"><p>Risóles de Frango</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Risóles de Brócolis</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Risóles de Carne</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Folheado Salgado</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Folheado Doce</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Enroladinho de Salsicha</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pastél de Carne</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Croquete</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolinho de Queijo</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Coxinha</p><button>Comprar</button></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                <img class="imgButton" src="./img/img-menu/cuca.png" alt="">
+            </button>
+            
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Cucas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="menuItem"><p>Cuca de Chocolate</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Leite Condensado</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Framboesa</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Abacaxi</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Requeijão</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Coco</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Doce de Leite</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Limão</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca de Baunilha</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cuca sem recheio</p><button>Comprar</button></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                <img class="imgButton" src="./img/img-menu/sonho.png" alt="">
+            </button>
+            
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Sonhos</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="menuItem"><p>Sonho de Chocolate</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Leite Condensado</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Creme de Framboesa</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Creme de Abacaxi</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Creme de Uva</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Creme de Coco</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Doce de Leite</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Creme de Limão</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho de Baunilha</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Sonho sem recheio</p><button>Comprar</button></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="modalButton" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                <img class="imgButton" src="./img/img-menu/doce.png" alt="">
+            </button>
+            
+            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title fs-5" id="exampleModalLabel">Doces</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="menuItem"><p>Brigadeiro</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Beijinho</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Bolinho de Chocolate</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pé de Moleque</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Cocada</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Goiabada</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Pudim</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Paçoca</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Trufa</p><button>Comprar</button></div>
+                            <div class="menuItem"><p>Alfarjor</p><button>Comprar</button></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <section>
+
+
+            
+
+        </section>
+
+        <section>
+
+                <div class="aboutUs">
+
+                    <div class="txtAbout">
+                        <h2>Sobre nós</h2>
+                        <p>Fazendo as suas compras aqui na Padoca do Zézo você encontra tudo o que procura em um só lugar! Desde cedo sempre
+                        pensamos em como levar pães e salgados quentinhos para sua casa, começamos pequenos mas almejamos muito mais.
+                        </p>
+                    </div>
+
+
+                    <div class="imgBox">
+
+                    <div class="imgAbout">
+                        <img src="./img/testeimg.jfif" alt="">
+                    </div>
+                    <div class="box"></div>
+
+                    </div>
+                    
+                </div>
+
+        </section>
+
+    </main>
+    
+    <footer>
+
+        <div class="container">
+
+            <div class="footer__logo">
+                <span><img class="icon__nav-logo" src="./img/nav/icon-bakery.png" alt=""></span><span>Bakery&#169;Since - 2022</span>
+            </div>
+
+            <div class="socialmidia">
+                <ul>
+                    <li><img class="icon__footer" src="./img/footer/icon-facebook.png" alt=""></li>
+                    <li><img class="icon__footer" src="./img/footer/icon-instagram.png" alt=""></li>
+                    <li><img class="icon__footer" src="./img/footer/icon-whatsapp.png" alt=""></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 207,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            900: {
+            slidesPerView: 3
+            },
+            570: {
+                slidesPerView: 2
+            }
+          }
+
+        });
+
+      </script>
+
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

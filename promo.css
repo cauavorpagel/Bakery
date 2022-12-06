@@ -1,0 +1,37 @@
+.promoProducts {
+    padding-bottom: 100px;
+}
+
+.swiper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 16rem;
+    height: 22rem;
+    background-color: var(--terciary-color);
+    border-radius: 1.5rem;
+}
+
+.card p {
+    color: black;
+    font-size: x-large;
+}
+
+.imgproduct {
+    width: 80%;
+    border-radius: 1rem;
+}
+
+@media(max-width:490px) {
+
+    .card {
+        margin-left: 75px;
+    }
+}
