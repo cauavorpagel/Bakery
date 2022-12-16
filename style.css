@@ -32,12 +32,22 @@
 
 .selectSection {
     background-color: var(--secondary-color);
-    color: var(--color-text-white);
     font-family: var(--font-primary);
 }
 
-section {
-    margin-bottom: 100px;
+.selectSection a {
+    color: var(--color-text-white);
+    text-decoration: none;
+}
+
+#promo, #menu, #sobre {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.margin {
+    border-bottom: 1px solid black;
+    margin-inline: 2%;
 }
 
 ul {
@@ -58,14 +68,15 @@ li span {
 }
 
 .img__background {
-    background-image: url(./img/img-bread.jpg);
+    background-image: url(./img/melhoradores-fazem-toda-a-diferenca-na-producao-de-paes-cpt.jpg);
     height: 250px;
     display: flex;
     align-items: center;
+    background-size: cover;
 }
 
 h1 {
-    color: black;
+    color: var(--color-text-white);
     width: 500px;
     padding-left: 100px;
     text-transform: capitalize;
@@ -97,9 +108,14 @@ h1 {
     position: absolute;
 }
 
+.imgAbout-img {
+    width: 310px;
+    height: 210px;
+}
+
 .box {
-    width: 250px;
-    height: 160px;
+    width: 280px;
+    height: 180px;
     background-color: var(--secondary-color);
     position: relative;
     z-index: -1;
@@ -141,4 +157,17 @@ footer .container {
         align-items: center;
     }
 
+}
+
+@media(max-width:420px) {
+
+    .imgAbout-img {
+        width: 280px;
+        height: 180px;
+    }
+
+    .box {
+        width: 250px;
+        height: 150px;
+    }
 }

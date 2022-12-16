@@ -16,7 +16,6 @@
     width: 16rem;
     height: 22rem;
     background-color: var(--terciary-color);
-    border-radius: 1.5rem;
 }
 
 .card p {
@@ -27,6 +26,10 @@
 .imgproduct {
     width: 80%;
     border-radius: 1rem;
+}
+
+.imgproduct:hover {
+    scale: 2.4;
 }
 
 @media(max-width:490px) {

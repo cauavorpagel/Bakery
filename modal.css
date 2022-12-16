@@ -22,20 +22,27 @@
 .imgButton {
     padding: 0;
     margin: 10px;
-    max-width: 480px;
+    width: 480px;
+}
+
+.imgButton:hover {
+    box-shadow: 7px 7px 7px var(--shadow-color);
+    transition: 0.2s;
+    scale: 1.02;
+    
 }
 
 .modal-header, .modal-footer {
-    background-color: rgb(99, 26, 26);
+    background-color: var(--quartenary-color);
     border: 0;
 }
 
 h5, p {
-    color: white;
+    color: var(--color-text-black);
 }
 
 .modal-body {
-    background-color: rgb(73, 28, 28);
+    background-color: var(--terciary-color);
 }
 
 .menuItem {
@@ -45,14 +52,15 @@ h5, p {
 }
 
 .menuItem button {
-    background-color: brown;
+    background-color: var(--color-text-black);
+    color: var(--color-text-white);
     border: none;
-    border-radius: 100px;
+    border-radius: 0.5rem;
     height: 30px;
 }
 
 .modal-footer button {
-    background-color: brown;
+    background-color:var(--color-text-black);
     border: none;
 }
 

@@ -4,9 +4,11 @@
 :root {
     --primary-color: #e0a500;
     --secondary-color: #732c00;
-    --terciary-color: #cfcfcf;
+    --terciary-color: #cfcfcf17;
     --font-family: 'Secular One', sans-serif; 
     --font-secondary: 'Dancing Script', cursive;
     --color-text-black: #000;
     --color-text-white: #fff;
+    --quartenary-color: rgb(87, 87, 87);
+    --shadow-color: rgba(75, 75, 75, 0.301);
 }
